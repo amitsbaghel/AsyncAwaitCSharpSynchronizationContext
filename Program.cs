@@ -11,7 +11,7 @@ namespace AsyncAwaitInSynchronizationContextCSharp
         static async Task Main(string[] args)
         {
 			// Installed this Nuget package to create a SynchronizationContext https://www.nuget.org/packages/Nito.AsyncEx.Context/
-			// to mimicing the behavior like WinForms apps and WPF
+			// to mimic the behavior like WinForms apps and WPF
 			// Followed this link and couple more - https://stackoverflow.com/questions/70917489/why-is-the-current-thread-changed-when-a-task-awaits-another-task
 			AsyncContext.Run(async () =>
 			{
