@@ -69,7 +69,7 @@ namespace AsyncAwaitInSynchronizationContextCSharp
 
 			await Task.Delay(1000);
 
-			Console.WriteLine($"Threaid Id inside FirstAsyncCall call after Task Delay: {Thread.CurrentThread.ManagedThreadId}");
+			Console.WriteLine($"Thread Id inside FirstAsyncCall call after Task Delay: {Thread.CurrentThread.ManagedThreadId}");
 
 			return "First call";
 		}
