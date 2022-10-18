@@ -1,5 +1,5 @@
 # AsyncAwaitCSharpSynchronizationContext
-Different behavior of Async Await with a SynchronizationContext ( UI ) and without it in C#
+Different behavior of async await with/wihout a SynchronizationContext ( UI ) in C#
 
 With SynchronizationContext ( e.g. in WPF/WinForms app) 
 
